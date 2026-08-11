@@ -13,7 +13,7 @@ public class PasswordCombos
         combination[0] = PASSWORDCHARACTERS[0];
 
         for(int j = 1; j < length; j++)
-            combination[j] = '\0';
+            combination[j] = ' ';
 
         if(start != null)
             for(int p = 0; p < start.Length; p++)
@@ -57,7 +57,7 @@ public class PasswordCombos
         combination[0] = PASSWORDCHARACTERS[0];
 
         for(int j = 1; j < length; j++)
-            combination[j] = '\0';
+            combination[j] = ' ';
         
 
         if(start != null)
